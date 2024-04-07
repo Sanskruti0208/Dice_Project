@@ -14,8 +14,8 @@ top_line.pack()
 sec_line = tkinter.Label(root, text = "Let's Roll the Dice",fg = "black", bg = "#C0C0C0" , font = "Lucida 25 bold italic")
 sec_line.pack()
 
-dice = ["C:/Users/sansk/OneDrive/Desktop/python project/dice 6.jpg","C:/Users/sansk/OneDrive/Desktop/python project/dice 5.jpg","C:/Users/sansk/OneDrive/Desktop/python project/dice 4.jpg","C:/Users/sansk/OneDrive/Desktop/python project/dice 3.jpg","C:/Users/sansk/OneDrive/Desktop/python project/dice 2.jpg","C:/Users/sansk/OneDrive/Desktop/python project/dice 1.jpg","C:/Users/sansk/OneDrive/Desktop/python project/dice.jpg"]
-image2 = ImageTk.PhotoImage(file = "C:/Users/sansk/OneDrive/Desktop/python project/dice.jpg")
+dice = ["C:/Users/sansk/OneDrive/Desktop/Projects/dice project/dice 6.jpg","C:/Users/sansk/OneDrive/Desktop/Projects/dice project/dice 5.jpg","C:/Users/sansk/OneDrive/Desktop/Projects/dice project/dice 4.jpg","C:/Users/sansk/OneDrive/Desktop/Projects/dice project/dice 3.jpg","C:/Users/sansk/OneDrive/Desktop/Projects/dice project/dice 2.jpg","C:/Users/sansk/OneDrive/Desktop/Projects/dice project/dice 1.jpg","C:/Users/sansk/OneDrive/Desktop/Projects/dice project/dice.jpg"]
+image2 = ImageTk.PhotoImage(file = "C:/Users/sansk/OneDrive/Desktop/Projects/dice project/dice.jpg")
 label1 = tkinter.Label(root, image =image2 )
 label1.image = image2
 label1.pack(expand = True)
